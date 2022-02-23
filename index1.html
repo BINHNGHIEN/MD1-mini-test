@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chu vi- dien tich</title>
+</head>
+<body>
+<input type="text" id="st">
+<button onclick="chuvi()">Chu vi</button>
+<button onclick="dientich()">Diện tích</button>
+<script>
+    function chuvi() {
+        let a = +document.getElementById(`st`).value;
+        alert(a*4);
+    }
+    function dientich() {
+        let a = +document.getElementById(`st`).value;
+        alert(a*a);
+    }
+
+</script>
+
+</body>
+</html>

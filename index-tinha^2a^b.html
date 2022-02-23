@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="st1">
+<input type="text" id="st2">
+<button onclick="so1()">a^2</button>
+<button onclick="so2()">a^b</button>
+<script>
+    function so1() {
+       let a = +document.getElementById('st1').value;
+       alert(a*a);
+    }
+    function so2() {
+        let a = +document.getElementById('st1').value;
+        let b = +document.getElementById('st2').value;
+        alert(Math.pow(a,b));
+    }
+</script>
+</body>
+</html>

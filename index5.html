@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập a và b, tính tổng các số từ a đến b</title>
+</head>
+<body>
+
+<script>
+    a = prompt("nhập a");
+    b = prompt("nhập b");
+    if ((a+b)%2==0) {
+        var tong1 = (b-a+1)*(a+b)/2;
+        document.write(`tong là: `+ tong1 );
+    } else{
+        var tong2 = (a+b)*(b-a-2);
+        document.write(`tong là: `+ tong2 );
+    }
+
+</script>
+</body>
+</html>
